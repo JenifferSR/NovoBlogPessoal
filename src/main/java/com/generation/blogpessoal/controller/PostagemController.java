@@ -82,7 +82,7 @@ public class PostagemController {
 
 			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Tema não existe!", null);
 
-		}
+	}
 
 		return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
 		/*
@@ -103,4 +103,5 @@ public class PostagemController {
 
 		/* DELETE FROM tb_postagens WHERE id = id */
 	}
-}
+
+	}
